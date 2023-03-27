@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example Web Page</title>
+        <meta charset="utf-8">
+    <style>
+      body {
+        font-family: cursive;
+        background-color: rgb(0,0,0);
+        color: white;
+        margin: 5px;
+        border-left: dashed 3px red;
+        border-right: dashed 3px red;
+        border-top: dashed 3px blue;
+        border-bottom: dashed 3px blue;
+      }
+    strong.big {
+        background-color: red;
+        color: white;
+        font-size: 1.25em;
+    }
+      .Contents{
+        float: right;
+        margin: 10px;
+        border: solid yellow;
+        padding: 5px;
+      }
+      #video-small{
+        float: right;
+        margin: 5px;
+      }
+      .videos{
+        
+        z-index: 1;
+        
+      }
+      #Ad{
+        font-size: 20px;
+        border: ridge 3px grey;
+        float: left;
+      }
+      
+    </style>
+    </head>
+    <body>
+      <div class="Contents">
+      <h2>Table of contents</h2>
+      <ul>
+        <li><a href="Thebasics">The basics</a></li>
+        <li><a href="lists">Lists</a></li>
+        <li><a href="Videos">Videos</a></li>
+      </ul>
+      </div>
+      
+      <h1>A Cool Web Page</h1>
+      <h2>The basics</h2>
+      <p id="Thebasics">
+          This is my example webpage. It has some <strong class=big>very</strong> cool html and css. 
+          This has all of the basic knowledge I possess. If you want more, go find it somewhere else.
+      </p>
+      <!-- use <ul> before starting a list, or else it won't work -->
+      <h2 id="list">Lists</h2>  
+      <ul>
+          <li>This</li>
+          <li>is a</li>
+          <li>list</li>
+        </ul>
+      <p></p>
+      <h2 id="Videos">Videos</h2>
+      <br>
+      <div class="videos">
+        <!--Basic video code <iframe width="485" height="285" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe> -->
+      <iframe width="500" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+      <div id="video-small">
+      <iframe width="300" height="560" src="https://www.youtube.com/embed/-53WNkZc6mQ"></iframe>
+      </div>
+      </div>
+      <iframe src="https://www.youtube.com/embed/Zk7Tut7Vqbg"></iframe>
+      <p><span id="Ad">^Your advertisement could go here!^</span></p>
+  </body>
+</html>
